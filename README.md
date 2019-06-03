@@ -4,7 +4,6 @@
 
 Leetcode Solution 在线阅读：https://www.acwing.com/solution/leetcode/
 
-
 Acwing Solution 在线阅读 https://www.acwing.com/solution/acwing/
 
 
@@ -19,9 +18,10 @@ Acwing Solution 在线阅读 https://www.acwing.com/solution/acwing/
 
 ## 算法基础课Note
 
-### 1. 基础算法
 
-20190517 [排序，二分，高精度，前缀和](/Note/20190517算法基础班.cpp)
+[13. 并查集 UnionFind](https://github.com/pkuzengqi/Algorithm_and_More/blob/master/Note/13.%E5%B9%B6%E6%9F%A5%E9%9B%86_UnionFind.md
+)
+
 
 
 
