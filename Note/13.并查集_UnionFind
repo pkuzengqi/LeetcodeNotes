@@ -1,0 +1,76 @@
+# Note
+
+### 性质
+
+复杂度近乎O(1)
+
+用树维护所有元素，根节点编号是集合编号，对每个点存储父节点p(x)
+
+
+### 支持的操作
+
+1. 将两个集合合并
+
+2. 询问两个元素是否在一个集合当中
+
+### 相关问题
+
+1. 判断树根：p(x)=x
+
+2. 如何求x的集合编号 while(p(x)!=x)x=p(x)
+	
+3. 如何合并两个集合 : px是x的集合编号，py是y的集合编号，则让px=y
+
+4. (扩充问题)统计集合大小：加一个size数组，保证只有根节点的size有意义，合并两棵树的时候需要更新
+
+### 优化
+
+1. 路径压缩：查到祖先之后就把px存成祖先，写在find函数里
+
+2. 按秩合并：合并的时候小树接在大树后面，一般不考
+
+### 其他
+
+scanf读字母最好写成string，避免读入空格
+
+# Acwing Example
+
+
+# Leetcode Questions
+
+[Leetcode 547. Friend Circles](https://leetcode.com/problems/friend-circles/): 数集合个数. [Solution 1](https://www.acwing.com/solution/LeetCode/content/427/).[Solution 2]([Leetcode 547](https://www.acwing.com/solution/LeetCode/content/2012/).
+
+[Leetcode 200. Number of Islands](https://leetcode.com/problems/number-of-islands/description/): 数集合个数. [Solution 1](https://www.acwing.com/solution/LeetCode/content/2013/). [Solution 2 with DFS](https://www.acwing.com/solution/LeetCode/content/263/). 
+
+[Leetcode 684. Redundant Connection](https://leetcode.com/problems/redundant-connection/): [Solution 1](https://www.acwing.com/solution/LeetCode/content/2014/).
+
+[LeetCode 839. Similar String Groups](https://leetcode.com/problems/similar-string-groups/): [Solution 1](https://www.acwing.com/solution/LeetCode/content/905/).
+
+[LeetCode 924. Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/): [Solution 1 in Python](https://www.acwing.com/solution/LeetCode/content/1229/).
+
+[LeetCode 928. Minimize Malware Spread II](https://leetcode.com/problems/minimize-malware-spread-ii/description/): [Solution 1](https://www.acwing.com/solution/LeetCode/content/583/).
+
+[LeetCode 945. Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/): [Solution 1](https://www.acwing.com/solution/LeetCode/content/649/).
+
+[LeetCode 947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/): [Solution 1](https://www.acwing.com/solution/LeetCode/content/678/)
+
+[LeetCode 950. Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/): [Solution 1](https://www.acwing.com/solution/LeetCode/content/681/)
+
+[LeetCode 952. Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/): [Solution 1](https://www.acwing.com/solution/LeetCode/content/646/)
+
+[LeetCode 959. Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/): [Solution 1](https://www.acwing.com/solution/LeetCode/content/674/)
+
+[LeetCode 990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/): [Solution 1](https://www.acwing.com/solution/LeetCode/content/992/)
+
+
+
+
+
+
+
+
+
+
+
+
+
