@@ -44,15 +44,15 @@ Acwing Solution 在线阅读 https://www.acwing.com/solution/acwing/
 
 10. 栈与队列：单调队列、单调栈
 
-11. kmp
+11. KMP
 
 12. Trie
 
-[13. 并查集 UnionFind](/Note/13.并查集_UnionFind.md)
+13. [并查集 UnionFind](/Note/13.并查集_UnionFind.md)
 
 14. 堆
 
-15. Hash表
+15. 哈希表 Hash
 
 16. C++ STL使用技巧
 
