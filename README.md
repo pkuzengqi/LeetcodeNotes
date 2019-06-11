@@ -16,7 +16,7 @@ Acwing Solution 在线阅读 https://www.acwing.com/solution/acwing/
 
 # 高频题
 
-TODO
+[Amazon高频分类](/Note/Amazon高频分类.md)
 
 # 算法基础课Note
 
@@ -48,7 +48,7 @@ TODO
 
 12. Trie
 
-[13. 并查集 UnionFind](https://github.com/pkuzengqi/Algorithm_and_More/blob/master/Note/13.%E5%B9%B6%E6%9F%A5%E9%9B%86_UnionFind.md)
+[13. 并查集 UnionFind](/Note/13.并查集_UnionFind.md)
 
 14. 堆
 
