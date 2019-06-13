@@ -1,18 +1,10 @@
 # Solutions
 
-Leetcode Solution 在线阅读：https://www.acwing.com/solution/leetcode/
+Leetcode 题解：https://www.acwing.com/solution/leetcode/
 
-Acwing Solution 在线阅读 https://www.acwing.com/solution/acwing/
+刷题打卡活动 https://www.acwing.com/activity/
 
-
-# Activities
-
-[ Leetcode刷题打卡活动](https://www.acwing.com/activity/)
-
-[《剑指Offer》打卡活动]( https://www.acwing.com/activity/content/5/)
-
-[《算法竞赛进阶指南》打卡活动]( https://www.acwing.com/activity/content/6/)
-
+我的主页 https://www.acwing.com/user/myspace/index/18/
 
 
 # 算法基础课Note
