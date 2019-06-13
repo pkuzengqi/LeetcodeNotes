@@ -14,9 +14,6 @@ Acwing Solution 在线阅读 https://www.acwing.com/solution/acwing/
 [《算法竞赛进阶指南》打卡活动]( https://www.acwing.com/activity/content/6/)
 
 
-# 高频题
-
-[Amazon高频分类](/Note/Amazon高频分类.md)
 
 # 算法基础课Note
 
