@@ -9,7 +9,7 @@ Leetcode 题解：https://www.acwing.com/solution/leetcode/
 
 # 算法基础课Note
 
-
+0. [编程技巧](/Note/0.编程技巧.md)
 
 ### 基础算法
 
@@ -31,9 +31,9 @@ Leetcode 题解：https://www.acwing.com/solution/leetcode/
 
 ### 数据结构
 
-9. [链表与邻接表：树与图的存储](/Note/9.链表与邻接表.md) TODO
+9. [链表](/Note/9.链表.md) TODO
 
-10. [栈与队列：单调队列、单调栈](/Note/10.栈与队列.md) TODO
+10. [栈与队列](/Note/10.栈与队列.md) TODO
 
 11. [KMP](/Note/11.KMP.md) TODO
 
@@ -49,11 +49,11 @@ Leetcode 题解：https://www.acwing.com/solution/leetcode/
 
 ### 搜索与图论
 
-17. [DFS与BFS](/Note/17.DFSBFS.md) TODO 这一节没有模板需要自己笔记
+17. [树与图的存储遍历](/Note/17.树与图的存储遍历.md)  TODO 这一节没有模板需要自己笔记
 
-18. [树与图的遍历：拓扑排序](/Note/18.树与图.md) TODO
+18. [拓扑排序](/Note/18.拓扑排序.md) TODO
 
-19. [最短路](/Note/19.最短路.md) TODO 还有一半题
+19. [最短路](/Note/19.最短路.md) 
 
 20. [最小生成树](/Note/20.最小生成树.md) TODO
 
