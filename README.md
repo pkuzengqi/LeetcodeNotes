@@ -16,7 +16,7 @@ Leetcode 题解：https://www.acwing.com/solution/leetcode/
 
 1. [排序](/Note/1.排序.md) 
 
-2. [二分查找](/Note/2.二分查找.md)
+2. [二分查找](/Note/2.二分.md)
 
 3. [高精度](/Note/3.高精度.md) 
 
