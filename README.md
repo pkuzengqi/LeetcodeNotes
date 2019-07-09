@@ -14,9 +14,9 @@ Leetcode 题解：https://www.acwing.com/solution/leetcode/
 
 ### 基础算法
 
-1. [排序](/Note/1.排序.md) 
+1. [排序](/Note/1.排序.md): 快速排序，归并排序 
 
-2. [二分查找](/Note/2.二分.md)
+2. [二分查找](/Note/2.二分.md): 整数二分，浮点数二分
 
 3. [高精度](/Note/3.高精度.md) 
 
