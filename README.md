@@ -7,8 +7,12 @@ Leetcode 题解：https://www.acwing.com/solution/leetcode/
 
 刷题打卡活动 https://www.acwing.com/activity/
 
+算法基础课 https://www.acwing.com/activity/content/11/
 
-# 算法基础课Note
+2019LeetCode暑期打卡活动 https://www.acwing.com/activity/content/12/
+
+
+# [算法基础课](https://www.acwing.com/activity/content/11/)Note (非官方整理)
 
 0. [编程技巧](/Note/0.编程技巧.md)
 
@@ -54,11 +58,11 @@ Leetcode 题解：https://www.acwing.com/solution/leetcode/
 
 18. [拓扑排序](/Note/18.拓扑排序.md) 
 
-19. [最短路: Dijkstra, Bellman-Ford, SPFA, Floyd](/Note/19.最短路.md) 
+19. [最短路](/Note/19.最短路.md) : Dijkstra, Bellman-Ford, SPFA, Floyd
 
 20. [最小生成树](/Note/20.最小生成树.md) 
 
-21. [二分图: 染色法、匈牙利算法](/Note/21.二分图.md) 
+21. [二分图](/Note/21.二分图.md) : 染色法、匈牙利算法
 
 ### 数学知识
 
