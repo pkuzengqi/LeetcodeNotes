@@ -1,3 +1,7 @@
+// 回溯：带重复数的全排列
+
+
+
 class Solution {
 public:
     // st[i] == false，表示path[i]存在
@@ -23,7 +27,7 @@ public:
             ans.push_back(path);
             return;
         }
-        
+
         // 从左到右依次枚举每个数，每次将它放在一个空位上
         for (int i = start; i < nums.size(); i ++ )
             if (!st[i])
