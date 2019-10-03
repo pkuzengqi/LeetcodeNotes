@@ -1,3 +1,4 @@
+
 // 题目描述
 // 给定一棵二叉树，你需要计算它的直径长度。一棵二叉树的直径长度是任意两个结点路径长度中的最大值。这条路径穿过或者不穿过根结点。
 
@@ -29,7 +30,7 @@ public:
         if(!r) return -1; 
         int d1 = dfs(r->left,ans);
         int d2 = dfs(r->right,ans);
-        ans = max(ans, d1+d2+2); //ans是最长路径，d1+d2+2代表经过该点
+        ans = max(ans, d1+d2+2); //ans是最长路径，d1+d2+2代表经过该点, 加2是因为上面root=null时返回-1
         return max(d1,d2)+1;     //dfs返回值是该点往下的最长路径
     }
 };
