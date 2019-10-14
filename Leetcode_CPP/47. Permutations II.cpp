@@ -21,10 +21,10 @@
 
 // 先将所有数从小到大排序，这样相同的数会排在一起；
 // 从左到右依次枚举每个数，每次将它放在一个空位上；
-// 对于相同数，我们人为定序，就可以避免重复计算：我们在dfs时记录一个额外的状态，记录上一个相同数存放的位置 startstart，我们在枚举当前数时，只枚举 start+1,start+2,…,nstart+1,start+2,…,n 这些位置。
+// 对于相同数，我们人为定序，就可以避免重复计算：我们在dfs时记录一个额外的状态，记录上一个相同数存放的位置 start，我们在枚举当前数时，只枚举 start+1,start+2,…,n 这些位置。
 // 不要忘记递归前和回溯时，对状态进行更新。
 
-// 时间复杂度分析：搜索树中最后一层共 n!n! 个节点，前面所有层加一块的节点数量相比于最后一层节点数是无穷小量，可以忽略。且最后一层节点记录方案的计算量是 O(n)O(n)，所以总时间复杂度是 O(n×n!)O(n×n!)。
+// 时间复杂度分析：搜索树中最后一层共 n!个节点，前面所有层加一块的节点数量相比于最后一层节点数是无穷小量，可以忽略。且最后一层节点记录方案的计算量是 O(n)，所以总时间复杂度是 O(n×n!)。
 
 
 
@@ -46,7 +46,6 @@ public:
         return ans;
     }
 
-    // start: 记录上一个相同数存放的位置 start, 我们在枚举当前数时，只枚举 start+1,start+2,…,nstart+1,start+2,…,n 这些位置。
     void dfs(vector<int>& nums, int u, int start)
     {
         if (u == nums.size())
@@ -69,4 +68,42 @@ public:
             }
     }
 };
+
+
+
+// 基于permutationI y总的代码改的，在枚举一个位置的情况时用一个单独变量记录这次用过的数，以后的枚举会跳过这个数，代码如下：
+
+vector<vector<int>> ans;
+    vector<int> path;
+    vector<bool> in_use;
+    vector<vector<int>> permuteUnique(vector<int>& nums) {
+        if (nums.size() == 0) return ans;
+        for (int i =0;i < nums.size(); i++) in_use.push_back(false);
+        sort(nums.begin(), nums.end());
+        dfs(nums, 0);
+        return ans;
+    }
+
+    void dfs(vector<int>& nums, int  u)
+    {
+        if (u == nums.size()) {
+            ans.push_back(path);
+            return;
+        }
+        int prev = 0; 
+        bool first = true;
+        for (int i = 0; i < nums.size(); i++)
+        {
+            if (!in_use[i] && ( first || nums[i] != prev)) {
+                in_use[i] = true;
+                path.push_back(nums[i]);
+                dfs(nums, u+1);
+                in_use[i] = false;
+                path.pop_back();
+                prev = nums[i];
+                if (first) first = false;
+            }
+        }
+    }
+
 
