@@ -49,6 +49,7 @@ public:
                 if (dfs(nums, u, cur + nums[i], i + 1, length)) return true;
                 st[i] = false;
 
+                //如果当前木棒拼接失败
                 while (i + 1 < nums.size() && nums[i + 1] == nums[i]) i ++ ;
                 if (!cur) return false;
                 if (cur + nums[i] == length) return false;
