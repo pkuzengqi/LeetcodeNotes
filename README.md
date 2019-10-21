@@ -5,10 +5,10 @@
 
 刷题打卡活动 https://www.acwing.com/activity/
 
-2019LeetCode暑期打卡活动 https://www.acwing.com/activity/content/12/
 
-  - [Tree题解.pdf](/面经和高频/acwing/AcWing_Tree题解.pdf)
-  - [AcWing_LeetCode二分链表题解.pdf](/面经和高频/acwing/AcWing_LeetCode二分链表题解.pdf)
+[AcWing_Tree题解.pdf](/面经和高频/acwing/AcWing_Tree题解.pdf)
+
+[AcWing_LeetCode二分链表题解.pdf](/面经和高频/acwing/AcWing_LeetCode二分链表题解.pdf)
 
 算法基础课 https://www.acwing.com/activity/content/11/
 
@@ -20,10 +20,10 @@
 
 # [技巧总结](/Note/0.编程技巧.md)
 
-# 算法基础课Note (非官方整理)
+# 考点总结
 
 
-### 基础算法
+### 算法基础课笔记
 
 1. [排序](/Note/1.排序.md): 快速排序，归并排序 
 
@@ -92,5 +92,40 @@
 29. [时空复杂度分析](/Note/29.时空复杂度分析.md) 
 
 
+# LeetCode复习清单
 
+### DFS / BFS 
+
+[542 BFS](/Leetcode_CPP/542.01Matrix.cpp).
+
+### DP
+
+### Binary Search
+
+### Slicing Window / Two Pointers
+
+### Greedy
+
+### Sort
+
+[207 Topological Sorting](/Leetcode_CPP/207.CourseSchedule.cpp).
+
+
+### Data Structure
+
+LinkedList
+
+Tree
+
+Hash
+
+Stack
+
+Queue
+
+Graph
+
+### Others
+
+Bit
 
