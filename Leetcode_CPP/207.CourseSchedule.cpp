@@ -42,11 +42,11 @@
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-      queue<int> q;
-      vector<bool> st(numCourses, false);
+      queue<int> q; //q是处理队列
+      vector<bool> st(numCourses, false); //st是每门课上了没有
       
-      vector<vector<int>> graph(numCourses);
-      vector<int> in_degree(numCourses,0);
+      vector<vector<int>> graph(numCourses); //拓扑排序需要的图
+      vector<int> in_degree(numCourses,0); //拓扑排序需要的入度（入度为0才能进队列被处理）
       for(auto &p:prerequisites){
         graph[p[1]].push_back(p[0]);
         ++in_degree[p[0]];

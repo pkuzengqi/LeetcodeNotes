@@ -1,0 +1,61 @@
+题目描述
+给定一个非空数组，其中仅有一个数字出现的次数为1，其余的数字都出现了3次。找到出现1次的数字，返回它的值。
+
+注意
+限制线性的时间复杂度。
+使用常数内存空间。
+样例
+Input: [2,2,3,2]
+Output: 3
+
+Input: [0,1,0,1,0,1,99]
+Output: 99
+
+算法
+(位运算) O(n)
+根据 Single Number 的做法，可以推广到更一般的问题。
+考虑二进制每一位上出现0和1的次数，如果出现1的次数为3k+1，则证明答案中这一位是1。
+
+时间复杂度
+仅遍历32次数组，故时间复杂度为O(n)。
+
+
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int ans = 0;
+        for (int bit = 0; bit < 32; bit++) {
+            int counter = 0;
+            for (int i = 0; i < nums.size(); i++)
+                counter += (nums[i] >> bit) & 1;
+            ans += (counter % 3) << bit;
+        }
+        return ans;
+    }
+};
+
+
+这个解法还没懂
+思路参考 https://www.cnblogs.com/higerzhang/p/4159330.html
+
+用二进制模拟三进制：
+对于除出现一次之外的所有的整数，其二进制表示中每一位1出现的次数是3的整数倍，
+将所有这些1清零，剩下的就是最终的数。
+用ones记录到当前计算的变量为止，二进制1出现“1次”（mod 3 之后的 1）的数位。
+用twos记录到当前计算的变量为止，二进制1出现“2次”（mod 3 之后的 2）的数位。
+当ones和twos中的某一位同时为1时表示二进制1出现3次，此时需要清零。
+最终ones记录的是最终结果。
+
+
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int ones = 0, twos = 0;
+        for (auto x : nums)
+        {
+            ones = (ones ^ x) & ~twos;
+            twos = (twos ^ x) & ~ones;
+        }
+        return ones;
+    }
+};

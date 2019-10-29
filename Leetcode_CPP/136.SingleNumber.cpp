@@ -1,0 +1,39 @@
+题目描述
+给定一个非空数组，其中仅有一个数字出现的次数为1，其余的数字都出现了2次。找到出现1次的数字，返回它的值。
+
+注意
+限制线性的时间复杂度。
+使用常数内存空间。
+样例
+Input: [2,2,1]
+Output: 1
+
+Input: [4,1,2,1,2]
+Output: 4
+
+算法
+(XOR) O(n)O(n)
+两个相同的数字经过异或之后会变为0。
+将数组所有元素异或在一起即可得到出现1次的元素值。
+
+时间复杂度
+仅遍历一次数组，故时间复杂度为O(n)。
+
+
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+      int res=0;
+      for(auto x:nums) res^=x;
+      return res;
+    }
+};
+
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        for (int i = 1; i < nums.size(); i++)
+            nums[0] ^= nums[i];
+        return nums[0];
+    }
+};

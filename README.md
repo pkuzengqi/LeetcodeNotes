@@ -128,5 +128,5 @@ Graph
 
 ### Others
 
-Bit
+Bit: [136 XOR](/Leetcode_CPP/136.SingleNumber.cpp), [137 XOR](/Leetcode_CPP/137.SingleNumberII.cpp)
 
