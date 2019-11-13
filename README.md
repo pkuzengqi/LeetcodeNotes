@@ -17,12 +17,13 @@
   - [常用代码模板4——数学知识](https://www.acwing.com/blog/content/406/)
   
 
-# [技巧总结](/Note/0.编程技巧.md)
-
-# 考点总结
 
 
-### 算法基础课笔记
+# 算法基础课笔记
+
+0. [技巧总结](/Note/0.编程技巧.md)
+
+### 基础算法
 
 1. [排序](/Note/1.排序.md): 快速排序，归并排序 
 
@@ -91,42 +92,130 @@
 29. [时空复杂度分析](/Note/29.时空复杂度分析.md) 
 
 
-# LeetCode复习清单
+# LeetCode分类复习清单
 
 ### DFS / BFS 
 
-[542 BFS](/Leetcode_CPP/542.01Matrix.cpp).
+- [542 BFS]
+
+- []
+
+- []
 
 ### DP
 
+- []
+
+- []
+
+- []
+
 ### Binary Search
+
+- []
+
+- []
+
+- []
 
 ### Slicing Window / Two Pointers
 
+- []
+
+- []
+
+- []
+
 ### Greedy
 
-[452 Disjoint Interval](/Leetcode_CPP/452.MinimumNumberofArrowstoBurstBalloons.cpp)
+- [452 Disjoint Interval]
+
+- []
+
+- []
+
 
 ### Sort
 
-[207 Topological Sorting](/Leetcode_CPP/207.CourseSchedule.cpp).
+- [207 Topological Sorting]
+
+- []
+
+- []
 
 
-### Data Structure
+### LinkedList
 
-LinkedList
 
-Tree
+- []
 
-Hash
+- []
 
-Stack
+- []
 
-Queue
+### Tree
 
-Graph
+
+- []
+
+- []
+
+- []
+
+### Hash
+
+
+- []
+
+- []
+
+- []
+
+### Stack
+
+
+- []
+
+- []
+
+- []
+
+### Queue
+
+
+- []
+
+- []
+
+- []
+
+### Graph
+
+
+- []
+
+- []
+
+- []
+
+
+
+### Bit
+
+- [136 XOR], [137 XOR], [260 XOR]
+
+- []
+
+- []
+
 
 ### Others
 
-Bit: [136 XOR](/Leetcode_CPP/136.SingleNumber.cpp), [137 XOR](/Leetcode_CPP/137.SingleNumberII.cpp)
+
+- []
+
+- []
+
+- []
+
 
