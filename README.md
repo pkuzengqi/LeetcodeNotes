@@ -44,12 +44,12 @@
 ### 数据结构
 
 9. [-链表](/Note/9.链表.md) 
-
 10. [-栈与队列](/Note/10.栈与队列.md) 
 
 11. [-KMP](/Note/11.KMP.md) 
 
-12. [-Trie](/Note/12.Trie.md) 
+12
+. [-Trie](/Note/12.Trie.md) 
 
 13. [-并查集](/Note/13.并查集.md) 
 
@@ -100,7 +100,7 @@
 
 ### DFS / Backtracing 
 
-- [46 Permutation]
+- [46 Permutation], [77 Combination]
 -
 -
 
@@ -134,7 +134,7 @@
 
 ### Bit
 
-- [136 XOR], [137 XOR], [260 XOR]
+- [136 XOR], [137 XOR]
 - []
 - []
 
