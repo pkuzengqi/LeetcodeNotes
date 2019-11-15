@@ -100,7 +100,7 @@
 
 ### DFS / Backtracing 
 
-- 
+- [46 Permutation]
 -
 -
 
@@ -115,8 +115,9 @@
 
 ### Binary Search [(Note)](/Note/2.二分.md)
 
-- 34
-- 69, 35
+- [34 Find Interval]
+- [69 Sqrt], [35 Insert]
+- []
 
 ### Slicing Window / Two Pointers
 
@@ -133,7 +134,9 @@
 
 ### Bit
 
-[-136 XOR], [-137 XOR], [-260 XOR]
+- [136 XOR], [137 XOR], [260 XOR]
+- []
+- []
 
 
 
@@ -142,6 +145,7 @@
 
 ### Tree
 
+- [-102 Level Order | BST], 
 
 
 ### Hash
