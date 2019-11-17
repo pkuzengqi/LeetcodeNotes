@@ -21,21 +21,21 @@
 
 # 算法基础课笔记
 
-0. [技巧总结](/Note/0.编程技巧.md)
+0. [技巧总结](/Note/0.Tricks.md)
 
 ### 基础算法
 
-1. [-排序](/Note/1.排序.md): 快速排序，归并排序 
+1. [-排序](/Note/1.Sort.md): 快速排序，归并排序 
 
-2. [-二分查找](/Note/2.二分.md): 整数二分，浮点数二分
+2. [-二分查找](/Note/2.BinarySearch.md): 整数二分，浮点数二分
 
 3. [-高精度](/Note/3.高精度.md) 
 
 4. [-前缀和与差分](/Note/4.前缀和与差分.md) 
 
-5. [-双指针算法](/Note/5.双指针.md) 
+5. [-双指针算法](/Note/5.TwoPointers.md) 
 
-6. [-位运算](/Note/6.位运算.md) 
+6. [-位运算](/Note/6.Bit.md) 
 
 7. [-离散化](/Note/7.离散化.md) 
 
@@ -44,12 +44,12 @@
 ### 数据结构
 
 9. [-链表](/Note/9.链表.md) 
+
 10. [-栈与队列](/Note/10.栈与队列.md) 
 
 11. [-KMP](/Note/11.KMP.md) 
 
-12
-. [-Trie](/Note/12.Trie.md) 
+12. [-Trie](/Note/12.Trie.md) 
 
 13. [-并查集](/Note/13.并查集.md) 
 
@@ -65,11 +65,11 @@
 
 18. [-拓扑排序](/Note/18.拓扑排序.md) 
 
-19. [-最短路](/Note/19.最短路.md) : Dijkstra, Bellman-Ford, SPFA, Floyd
+19. [-最短路](/Note/19.ShortestPath.md) : Dijkstra, Bellman-Ford, SPFA, Floyd
 
 20. [-最小生成树](/Note/20.最小生成树.md) 
 
-21. [-二分图](/Note/21.二分图.md) : 染色法、匈牙利算法
+21. [-二分图](/Note/21.二分图.md): 染色法、匈牙利算法
 
 ### 数学知识
 
@@ -111,12 +111,16 @@
 
 ### DP
 
+- [53 max subarray]
+-
+-
 
 
-### Binary Search [(Note)](/Note/2.二分.md)
+
+### Binary Search [(Note)](/Note/2.BinarySearch.md)
 
 - [34 Find Interval]
-- [69 Sqrt], [35 Insert], [74 2D matrix]
+- [69 Sqrt], [35 Insert], [74 2D matrix], [53 max subarray | DivideConquer]
 - []
 
 ### Slicing Window / Two Pointers
