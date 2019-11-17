@@ -116,7 +116,7 @@
 ### Binary Search [(Note)](/Note/2.二分.md)
 
 - [34 Find Interval]
-- [69 Sqrt], [35 Insert]
+- [69 Sqrt], [35 Insert], [74 2D matrix]
 - []
 
 ### Slicing Window / Two Pointers
