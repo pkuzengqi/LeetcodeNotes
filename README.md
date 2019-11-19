@@ -101,20 +101,24 @@
 ### DFS / Backtracing 
 
 - [46 Permutation], [77 Combination]
--
--
+- []
+- []
+
+
+
 
 ### BFS
 
-[-542]
+- [-542], [-102 Tree Level Order | BFS],
+- []
+- []
 
 
 ### DP
 
-- [53 max subarray]
--
--
-
+- [53 max subarray], [96 DP | BST]
+- []
+- []
 
 
 ### Binary Search [(Note)](/Note/2.BinarySearch.md)
@@ -125,50 +129,47 @@
 
 ### Slicing Window / Two Pointers
 
+- []
+- []
+- []
+
 
 ### Greedy
 
-[-452 Disjoint Interval]
+- [-452 Disjoint Interval]
+- []
+- []
 
 
 ### Sort
 
-[-207 Topological Sorting]
+- [-207 Topological Sorting]
+- []
+- []
 
 
-### Bit
+
+
+### Data Structure
+
+Tree, LinkedList, Graph, Hash, Heap, Stack, Queue, String, OOD
+
+- []
+- []
+- []
+
+
+### Bit / Math
 
 - [136 XOR], [137 XOR]
 - []
 - []
 
-
-
-### LinkedList
-
-
-### Tree
-
-- [-102 Level Order | BST], 
-
-
-### Hash
-
-
-
-### Stack
-
-
-### Queue
-
-
-
-### Graph
-
-
-### String
-
-
 ### Others
+
+- []
+- []
+- []
+
 
 
