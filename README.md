@@ -154,7 +154,7 @@
 
 Tree, LinkedList, Graph, Hash, Heap, Stack, Queue, String, OOD
 
-- [297 Tree Serialize | DFS], [124 Tree Max Path | DFS]
+- [297 Tree Serialize | DFS], [124 Tree Max Path | DFS], [101 Symmetric Tree | DFS]
 - [19 Linked List: Remove Nth Node], [83 Linked List: Remove Duplicates], [21 Linked List: Merge]
 - []
 
