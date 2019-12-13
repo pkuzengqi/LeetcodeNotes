@@ -100,7 +100,7 @@
 
 ### DFS / Backtracing 
 
-- [46 Permutation], [47 Permutation II], [77 Combination], [78 Subset], [90 Subset II]
+- [46 Permutation], [47 Permutation II], [77 Combination], [78 Subset], [90 Subset II], [22 Parentheses]
 - [39 Combination Sum], [17 Phone Num]
 - []
 
