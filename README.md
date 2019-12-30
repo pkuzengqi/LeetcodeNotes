@@ -160,7 +160,7 @@ Tree, LinkedList, Graph, Hash, Heap, Stack, Queue, String, OOD
 ### Bit / Math
 
 - [136 XOR], [137 XOR]
-- []
+- [762 Bit | Set]
 - []
 
 ### Others
