@@ -43,27 +43,27 @@
 
 ### 数据结构
 
-9. [-链表](/Note/9.链表.md) 
+9. [-链表](/Note/9.LinkedList.md) 
 
-10. [-栈与队列](/Note/10.栈与队列.md) 
+10. [-栈与队列](/Note/10.StackQueue.md) 
 
 11. [-KMP](/Note/11.KMP.md) 
 
 12. [-Trie](/Note/12.Trie.md) 
 
-13. [-并查集](/Note/13.并查集.md) 
+13. [-并查集](/Note/13.UnionFind.md) 
 
-14. [-堆](/Note/14.堆.md) 
+14. [-堆](/Note/14.Heap.md) 
 
-15. [-哈希表](/Note/15.哈希表.md) 
+15. [-哈希表](/Note/15.Hash.md) 
 
 16. [-C++ STL使用技巧](/Note/16.STL.md) 
 
 ### 搜索与图论
 
-17. [-树与图的存储遍历](/Note/17.树与图的存储遍历.md)  
+17. [-树与图的存储遍历](/Note/17.TreeGraph.md)  
 
-18. [-拓扑排序](/Note/18.拓扑排序.md) 
+18. [-拓扑排序](/Note/18.TopologicalSort.md) 
 
 19. [-最短路](/Note/19.ShortestPath.md) : Dijkstra, Bellman-Ford, SPFA, Floyd
 
@@ -77,7 +77,7 @@
 
 23. [-高斯消元](/Note/23.高斯消元.md) 
 
-24. [-组合计数](/Note/24.组合计数.md) 
+24. [-组合计数](/Note/24.Combination.md) 
 
 25. [-容斥原理](/Note/25.容斥原理.md)
 
@@ -85,11 +85,11 @@
 
 ### 其他
 
-27. [-动态规划](/Note/27.动态规划.md)
+27. [-动态规划](/Note/27.DP.md)
 
 28. [-贪心](/Note/28.贪心.md) 
 
-29. [-时空复杂度分析](/Note/29.时空复杂度分析.md) 
+29. [-时空复杂度分析](/Note/29.Complexity.md) 
 
 
 # LeetCode分类复习清单
@@ -103,8 +103,6 @@
 - [46 Permutation], [47 Permutation II], [77 Combination], [78 Subset], [90 Subset II], [22 Parentheses]
 - [39 Combination Sum], [17 Phone Num]
 - []
-
-
 
 
 ### BFS
@@ -129,7 +127,7 @@
 
 ### Slicing Window / Two Pointers
 
-- []
+- [918 Max Subarray | Monotone Queue]
 - []
 - []
 
@@ -143,7 +141,7 @@
 
 ### Sort
 
-- [-207 Topological Sorting]
+- [-207 Topological Sort]
 - []
 - []
 
