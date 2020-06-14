@@ -121,8 +121,8 @@
 
 ### Binary Search [(Note)](/Note/2.BinarySearch.md)
 
-- [[34 Find Interval](/Leetcode_CPP/34.md)]
-- [69 Sqrt], [35 Insert], [74 2D matrix], [53 max subarray | DivideConquer]
+- [34 Find Interval](/Leetcode_CPP/34.md)
+- [69 Sqrt](/Leetcode_CPP/69.md), [35 Insert](/Leetcode_CPP/35.md), [74 2D matrix], [53 max subarray | DivideConquer]
 - []
 
 ### Slicing Window / Two Pointers
