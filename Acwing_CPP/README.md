@@ -33,9 +33,9 @@
 - []
 
 
-### Binary Search
+### Binary Search / Divide Conquer
 
-- [] 
+- [[14 不修改数组找出重复的数字](14.md)] 
 - []
 - []
 
@@ -65,7 +65,7 @@
 
 Array, Tree, LinkedList, Graph, Hash, Heap, Stack, Queue, String, OOD
 
-- [13数组中重复的数字](13.md) 
+- [[13 数组中重复的数字](13.md) ]
 - []
 - []
 
