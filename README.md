@@ -100,21 +100,21 @@
 
 ### DFS / Backtracing 
 
-- [46 Permutation], [[47 Permutation II]](Leetcode_CPP/47.md), [77 Combination], [78 Subset], [90 Subset II], [22 Parentheses]
+- [22 Parentheses], [46 Permutation], [[47 Permutation II]](Leetcode_CPP/47.md), [77 Combination], [78 Subset], [90 Subset II], 
 - [39 Combination Sum], [17 Phone Num]
 - []
 
 
 ### BFS
 
-- [-542], 
+- []
 - []
 - []
 
 
 ### DP
 
-- [53 max subarray], [96 DP | BST]
+- [53 max subarray], [[72 Edit Dis]](Leetcode_CPP/72.md), [96 DP | BST], [[198 House Robber]](Leetcode_CPP/198.md)，[[213 House Robber II]](Leetcode_CPP/213.md)
 - []
 - []
 
@@ -122,7 +122,7 @@
 ### Binary Search [(Note)](/Note/2.BinarySearch.md)
 
 - [[34 Find Interval]](/Leetcode_CPP/34.md)
-- [[69 Sqrt]](/Leetcode_CPP/69.md), [[35 Insert]](/Leetcode_CPP/35.md), [74 2D matrix], [53 max subarray | DivideConquer]
+- [[69 Sqrt]](/Leetcode_CPP/69.md), [[35 Insert]](/Leetcode_CPP/35.md), [74 2D matrix]
 - []
 
 ### Slicing Window / Two Pointers
@@ -134,27 +134,36 @@
 
 ### Greedy
 
-- [-452 Disjoint Interval]
+- [452 Disjoint Interval]
 - []
 - []
 
 
 ### Sort
 
-- [-207 Topological Sort]
+- [207 Topological Sort]
 - []
 - []
 
 
+### Tree
 
-
-### Data Structure
-
-Tree, LinkedList, Graph, Hash, Heap, Stack, Queue, String, OOD
-
-- [297 Tree:  Serialize | DFS], [124 Tree:  Max Path | DFS], [101 Tree: Symmetric | DFS], [-102 Tree: Level Order | BFS], [145 Tree: Post Order | DFS], [543 Tree: Diameter | DFS]
-- [19 Linked List: Remove Nth Node], [83 Linked List: Remove Duplicates], [21 Linked List: Merge], [104 Tree: Depth | DFS]
+- [101 Symmetric](/Leetcode_CPP/101.md), [102 Level Order], [124 Max Path], [145 Post Order], [297 Serialize], [543 Diameter]
+- [104 Depth]
 - []
+
+### LinkedList
+
+- []
+- [19 Remove Nth Node], [21 Merge], [83 Remove Duplicates], , 
+- []
+
+### String
+
+- []
+- []
+- []
+
 
 
 ### Bit / Math
@@ -164,6 +173,8 @@ Tree, LinkedList, Graph, Hash, Heap, Stack, Queue, String, OOD
 - []
 
 ### Others
+
+Graph, Hash, Heap, Stack, Queue, OOD
 
 - []
 - []
