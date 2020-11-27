@@ -100,7 +100,7 @@
 
 ### DFS / Backtracing 
 
-- [46 Permutation], [47 Permutation II], [77 Combination], [78 Subset], [90 Subset II], [22 Parentheses]
+- [46 Permutation], [[47 Permutation II]](Leetcode_CPP/47.md), [77 Combination], [78 Subset], [90 Subset II], [22 Parentheses]
 - [39 Combination Sum], [17 Phone Num]
 - []
 
@@ -121,8 +121,8 @@
 
 ### Binary Search [(Note)](/Note/2.BinarySearch.md)
 
-- [34 Find Interval](/Leetcode_CPP/34.md)
-- [69 Sqrt](/Leetcode_CPP/69.md), [35 Insert](/Leetcode_CPP/35.md), [74 2D matrix], [53 max subarray | DivideConquer]
+- [[34 Find Interval]](/Leetcode_CPP/34.md)
+- [[69 Sqrt]](/Leetcode_CPP/69.md), [[35 Insert]](/Leetcode_CPP/35.md), [74 2D matrix], [53 max subarray | DivideConquer]
 - []
 
 ### Slicing Window / Two Pointers
