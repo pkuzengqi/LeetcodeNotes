@@ -94,9 +94,16 @@
 
 # LeetCode分类复习清单
 
-- list 1: must do
-- list 2: ok 
-- list 3: let it go
+
+### Greedy
+
+
+- Assignments: [455 Assign](/Leetcode_CPP/455.md), [135 Assign](/Leetcode_CPP/135.md)
+
+- Intervals: [435 non-overlapping intervals](/Leetcode_CPP/435.md)
+
+- [452 Disjoint Interval], 
+
 
 ### DFS / Backtracing 
 
@@ -114,7 +121,7 @@
 
 ### DP
 
-- [53 max subarray], [[72 Edit Dis]](Leetcode_CPP/72.md), [96 DP | BST], [[198 House Robber]](Leetcode_CPP/198.md)，[[213 House Robber II]](Leetcode_CPP/213.md)
+- [[51 N-Queen]](Leetcode_CPP/51.md), [53 max subarray], [[72 Edit Dis]](Leetcode_CPP/72.md), [96 DP | BST], [[198 House Robber]](Leetcode_CPP/198.md)，[[213 House Robber II]](Leetcode_CPP/213.md)
 - []
 - []
 
@@ -128,15 +135,12 @@
 ### Slicing Window / Two Pointers
 
 - [918 Max Subarray | Monotone Queue]
+
 - []
+
 - []
 
 
-### Greedy
-
-- [452 Disjoint Interval]
-- []
-- []
 
 
 ### Sort
