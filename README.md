@@ -11,7 +11,7 @@
 
 ### DFS / Backtracing 
 
-- [22 Parentheses], [46 Permutation], [[47 Permutation II]](Leetcode_CPP/47.md), [77 Combination], [78 Subset], [90 Subset II], 
+- [22 Parentheses](Leetcode_CPP/22.md), [46 Permutation], [[47 Permutation II]](Leetcode_CPP/47.md), [77 Combination], [78 Subset], [90 Subset II], 
 - [39 Combination Sum], [17 Phone Num]
 
 
